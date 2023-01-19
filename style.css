@@ -181,11 +181,71 @@ footer div ul li {
     border: 5px solid white;
 }
 
+#iconBox1{
+    width: 90px;
+    height: 40px;
+}
+#iconBox2{
+    width: 90px;
+    height: 40px;
+}
+#iconBox3{
+    width: 90px;
+    height: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 10% 10% auto 8%;
+    padding: 20px;
+    border: solid red 1px;
+    width: 95%;
+}
+
 .iconBox{
-    border: solid white 1px;
-    border-radius: 10%;
-    width: 100px;
-    height: 50px;
+    border: solid white 2px;
+    border-radius: 15%;    
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.iconPosition{
+    padding: 10px;
+    font-size: 18px;
+    /* text-align: center; */
+    /* justify-content: ; */
+}
+
+.iconPosition1{
+    padding: 0px 5px 2px 5px;
+    font-size: 18px;
+}
+
+.showtitle{
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-column-gap: auto;
+
+    /* background-color: white; */
+}
+
+.showtitleimage{
+    /* bottom: 0;
+    left: 0;
     position: absolute;
-    left: 5px;
+    right: 0;
+    top: 0;
+    width: 100%; */
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+
+}
+
+.showtitleimage img{
+    /* height: 10%; */
+    width: 100%;
+    border-radius: 4%;
 }

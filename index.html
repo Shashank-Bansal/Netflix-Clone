@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="netflixLogo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="https://kit.fontawesome.com/31738bbfe2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Netflix</title>
@@ -88,23 +88,28 @@
     </header>
 
     <div>
-        <div style="display:inline-flex; " >
-            <div class="iconBox">
-                <i class="fa-solid fa-play"></i>
-                <p>Play</p>
+        <div class="showtitle">
+            The Silent Sea
+        </div>
+        <div class="grid" >
+        <!-- <div style="display:inline-flex; flex-wrap: nowrap;" > -->
+            <div class="iconBox" id="iconBox1">
+                <div class="iconPosition"><i class="fa-solid fa-play" ></i></div>
+                <div class="iconPosition">Play</div>
             </div>
-            <div class="iconBox">
-                <i class="fa-solid fa-circle-info fa-xl"></i>
-                <p>More Info</p>
+            <div class="iconBox" id="iconBox2">
+                <div class="iconPosition"><i class="fa-solid fa-circle-info fa-l"></i></div>
+                <div class="iconPosition1">More Info</div>
             </div>
-            <div class="iconBox">
-                <i class="fa-solid fa-volume-high"></i>
-                <P>A</P>
+            <div></div>
+            <div class="iconBox" id="iconBox3">
+                <div class="iconPosition"><i class="fa-solid fa-volume-high"></i></div>
+                <div class="iconPosition">A</div>
             </div>  
         </div>
 
         <div class="video">
-            <video muted controls height="100%" width="100%" poster="/Images/cover.png">
+            <video autopaly muted controls height="100%" width="100%" poster="/Images/cover.png">
                 <source src="/Images/The Silent Sea   Teaser.mp4" type="video/mp4">
             </video>
         </div>
@@ -113,15 +118,33 @@
     </div>
 
 
+    <br>
 
     <div>
         <div>
             <!-- <div style="border: solid red ; width: 600px;" > -->
-            titles and shows
+            Trending Now
         </div>
-        <p>
-
-        </p>
+        <div class = "showtitle">
+            <div class="showtitleimage">
+                <img src="Images/3i.png" alt="" height="70%"/> 
+            </div>
+            <div class="showtitleimage">
+                <img src="Images/adam.png" alt="" height="70%"/> 
+            </div>
+            <div class="showtitleimage">
+                <img src="Images/av.png" alt="" height="70%"/> 
+            </div>
+            <div class="showtitleimage">
+                <img src="Images/Batman.png" alt="" height="70%"/> 
+            </div>
+            <div class="showtitleimage">
+                <img src="Images/extraction.png" alt="" height="70%"/> 
+            </div>
+            <div class="showtitleimage">
+                <img src="Images/bbt.png" alt="" height="70%"/> 
+            </div>
+        </div>
     </div>
 
 
@@ -172,10 +195,9 @@
         </div>
         <div style="color: grey; margin: 1%;">
             <i class="fa fa-copyright fa-sm"></i>
-            997-2023 Netflix, Inc.
+            1997-2023 Netflix, Inc.
         </div>
     </footer>
-
 </body>
 
 </html>
