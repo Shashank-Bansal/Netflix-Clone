@@ -3,6 +3,8 @@ body {
     color: white;
     overflow-x: hidden;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    /* object-fit:; */
+    margin: 0;
 }
 
 /* body::-webkit-scrollbar{
@@ -17,19 +19,8 @@ header {
     position: sticky;
     margin-bottom: 5px;
     background-color: black;
+    z-index: 10;
 }
-
-/* .play{
-    display: flex;
-
-} */
-
-/* header div div p{
-    font-size: 2vw;
-    position: absolute;
-    text-align: center;
-    left: 1000px;
-} */
 
 a {
     text-decoration: none;
@@ -42,7 +33,6 @@ a {
     padding: auto;
     align-items: center;
     box-sizing: border-box;
-    /* color : white; */
 }
 
 .box {
@@ -65,11 +55,11 @@ a {
     right: 10px;
     padding: 10px;
     top: 100%;
+    margin-top: 0;
     border: solid rgb(53, 52, 52) 2px;
     background-color: rgb(43, 43, 43);
     list-style-type: none;
     text-align: left;
-
 }
 
 .Profile-item {
@@ -97,6 +87,7 @@ a {
         display: block;
         position: absolute;
         top: 100%;
+        margin-top: 0;
         border: solid rgb(53, 52, 52) 2px;
         width: 175px;
         background-color: rgb(43, 43, 43);
@@ -115,7 +106,13 @@ a {
     position: relative;
     /* border: solid white 2px; */
     padding: 2px;
+    font-size: 2vw;
 
+}
+
+.display-content-item li:hover{
+    background-color: rgb(250,250,250,0.5);
+    width: 100%;
 }
 
 /* .display-content-item {
@@ -173,33 +170,52 @@ footer div ul {
 footer div ul li {
     padding: 4px;
     justify-content: left;
+    font-size: 1vw;
 }
 
 .video{
-    height: fit-content;
-    width: fit-content;
-    border: 5px solid white;
+    position: absolute;
+    /* height: 100vh; */
+    width: 100%;
+    top: 3vh;
+    object-fit: cover;
 }
 
-#iconBox1{
+#iconBox1, #iconBox2{
     width: 90px;
     height: 40px;
-}
-#iconBox2{
-    width: 90px;
-    height: 40px;
+    background-color: white;
+    border-radius: 12%;
+    color : black;
 }
 #iconBox3{
-    width: 90px;
-    height: 40px;
+    /* width: 90px;
+    height: 40px; */
+    width: 35px;
+    height: 35px;
+    padding-top: 2px;
+    border-radius: 30%;
+}
+#iconBox4{
+    border-left: white solid 2px;
+    text-align: center;
+    background-color: rgba(51,51,51,.6);
+    color: white;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 10% 10% auto 8%;
-    padding: 20px;
-    border: solid red 1px;
+#id1{
+    position: absolute;
+    top: 68vh;
+    left: 5vw; 
     width: 95%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 9% 9% auto 6% 6%;
+    padding: 20px;
+    column-gap: 1%;
+    width: 99%;
 }
 
 .iconBox{
@@ -210,25 +226,50 @@ footer div ul li {
     padding: 10px;
 }
 
-.iconPosition{
+.iconStyle{
     padding: 10px;
     font-size: 18px;
-    /* text-align: center; */
-    /* justify-content: ; */
 }
 
-.iconPosition1{
+/* .iconPosition1{
     padding: 0px 5px 2px 5px;
     font-size: 18px;
-}
+} */
 
-.showtitle{
+.showImage{
     font-size: 50px;
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
     grid-column-gap: auto;
+    /* left: 2vw; */
+}
 
-    /* background-color: white; */
+.showtitle{
+    font-size: 2vw;
+    height: 3vw;
+    width: 95%;
+    border: red solid 2px;
+    position: relative;
+    left: 2vw;
+}
+
+#showtitle1{
+    font-size: 4vw;
+    height: 19vh;
+    width: 20vw;
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+}
+
+#showDiscription{
+    font-size: 1vw;
+    height: 20vh;
+    /* width: 30vw; */
+    width: 25vw;
+    position: absolute;
+    top: 58vh;
+    left: 5vw;
 }
 
 .showtitleimage{
@@ -248,4 +289,23 @@ footer div ul li {
     /* height: 10%; */
     width: 100%;
     border-radius: 4%;
+}
+
+
+.addborder{
+    border-top: solid white 2px;
+}
+
+.bth{
+    padding: 10px;
+    border-radius: 15%;
+    height: 100%;
+    width: 100%;
+}
+
+#bth1{
+    background-color: white;
+    border-radius: 10%;
+    color : black;
+
 }
