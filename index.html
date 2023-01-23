@@ -15,7 +15,7 @@
 <body>
     <header class="container">
             <a class="box" href="https://www.netflix.com/browse" target="_blank" style="padding-right: 2vw; padding-left: 2vw;">
-                <img src="netflix_official_logo.png" alt="Netflix Logo" height=35px />
+                <img src="netflix_official_logo.png" alt="Netflix Logo" width=100rem />
             </a>
 
             <div class="container hidethis">
@@ -40,7 +40,7 @@
             </div>
 
             <div class="display-content box">
-                <p>Browse&nbsp;<i class="fa-sharp fa-solid fa-caret-down"></i></p>
+                <p>Browse &nbsp; <i class="fa-sharp fa-solid fa-caret-down"></i></p>
                 <ul style="list-style-type:none;" class="display-content-item">
                     <li><a href="https://www.netflix.com/browse" target="_blank">
                             Home
@@ -73,18 +73,21 @@
                 <div class="box">
                     <i class="fa fa-bell"></i>
                 </div>
+
                 <div class="Profile">
-                    <div class="box"><i class="fas fa-user-alt"></i>&nbsp;&nbsp;<i class="fa-sharp fa-solid fa-caret-down"></i></div>
+                    <div class="box"> <img src="/Profile/Profile4.png" alt="Profile" class="profileImage"/> &nbsp;&nbsp;<i class="fa-sharp fa-solid fa-caret-down icon" ></i></div>
                     <ul class="Profile-item">
-                        <li>Profile 1</li>
-                        <li>Profile 2</li>
-                        <li>Profile 3</li>
-                        <li>Children</li>
-                        <li>Manage Profiles</li>
-                        <li>Transfer Profile</li>
-                        <li>Account</li>
-                        <li style="padding-bottom: 10px;">Help Centre</li>
-                        <li class="addborder">Sign out of Netflix</li>
+                        <li><img src="/Profile/Profile.png" alt="Profile 1" class="profileImage"/> <span>&nbsp; Profile 1</span></li>
+                        <li><img src="/Profile/Profile2.png" alt="Profile 2" class="profileImage"/> <span>&nbsp; Profile 2</span></li>
+                        <li><img src="/Profile/Profile3.png" alt="Profile 3" class="profileImage"/> <span>&nbsp; Profile 3</span></li>
+                        <li><img src="/Profile/Children.png" alt="Profile 3" class="profileImage"/> <span>&nbsp; Children</span></li>
+
+                        <li><i class="fa-sharp fa-solid fa-pen"></i> &nbsp; Manage Profiles</li>
+                        <li><i class="fa-solid fa-right-left"></i> &nbsp; Transfer Profile</li>
+                        <li><i class="fas fa-user-alt"></i> &nbsp; Account</li>
+                        <li style="padding-bottom: 10px;"><i class="fas fa-question-circle"></i> &nbsp; Help Centre</li>
+
+                        <li id="addborder">Sign out of Netflix</li>
                     </ul>
                 </div>
             </div>
@@ -95,8 +98,8 @@
     <div style="display: absolute; padding-right: 0; height: 100vh; width: 100vw;">
         
         <div class="video">
-            <video autoplay muted height="100%" width="100%" poster="/Images/cover.png">
-                <source src="/Images/The Silent Sea Teaser.mp4" type="video/mp4">
+            <video autoplay muted height="100%" width="100%" poster="/Cover/cover.png">
+                <source src="/Cover/The Silent Sea Teaser.mp4" type="video/mp4">
             </video>
         </div>
 
@@ -107,19 +110,9 @@
         <div id="showDiscription">During a perilous 24-hour mission on the moon, space explorers try to retrieve samples from an abandoned research facility steeped in classified secrets.</div>
         
         <div id="id1">
-            <div id="grid">  
-            <!-- <div style="display:inline-flex; flex-wrap: nowrap;" >
-                <div id="iconBox1">
-                    <div class="iconPosition"><i class="fa-solid fa-play" ></i></div>
-                    <div class="iconPosition">Play</div>
-                </div>
-                <div id="iconBox2">
-                    <div class="iconPosition"><i class="fa-solid fa-circle-info fa-l"></i></div>
-                    <div class="iconPosition1">More Info</div>
-                </div> -->
-
-                <button class="btn" id="iconBox1"><i class="fa-solid fa-play"></i>&nbsp; Play</button>
-                <button class="btn" id="iconBox2"><i class="fa-solid fa-circle-info fa-l"></i> More Info</button>
+            <div id="grid">
+                <button class="btn" id="iconBox1"><i class="fa-solid fa-play"></i><strong>&nbsp; Play </strong></button>
+                <button class="btn" id="iconBox2"><i class="fa-solid fa-circle-info fa-l"></i><strong> More Info </strong></button>
                 <div></div>
                 <div class="iconBox" id="iconBox3">
                     <div class="iconStyle"><i class="fa-solid fa-volume-high fa-2xs"></i></div>
@@ -130,11 +123,10 @@
         <div>  </div>
     </div>
 
-
     <br>
 
     <!-- Showing the shows and movies's titles and thumbnails here -->
-    <div> 
+    <!-- <div> 
         <div class="showtitle">
             <strong> Trending Now</strong>
         </div>
@@ -161,7 +153,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- <div style="position: fixed; top : 90vh; width: 90vw; border: red solid 2px; height: 10vh;" viewBox="-20 0 70 154">
@@ -170,7 +162,7 @@
 
     </div> -->
 
-    <div> 
+    <!-- <div> 
         <div class="showtitle">
             <strong> Trending Now</strong>
         </div>
@@ -180,7 +172,7 @@
                 <div class="showtitleimage" style="display: flex;">
                     <i class="fa-solid fa-1 fa-xl" style="font-size: 22vh; position: relative; top: 10vh"></i>
                     
-                    <img src="Images/kungFuPanda.jpg" alt="" style="height: 20vh;"/> 
+                    <img src="Poster/kungFuPanda.jpg" alt="" style="height: 20vh;"/> 
                 </div>
                 <div class="showtitleimage">
                     <img src="Images/adam.png" alt="" height="70%"/> 
@@ -199,12 +191,402 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div>
+        <div class="showtitle">
+            <strong> Trending Now</strong>
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail"> 
+                <img src="Images/extraction.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/planet.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/office.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/dkRises.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/DarkKnight.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/gk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/hulk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/spaceforce.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/suits.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/queens.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/sg.png" alt="" width="100%"/>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="showtitle">
+            <strong> Top 10 Movies & Shows</strong> 
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail2">
+                <img src="/Rank/one.png" alt="" class="rank">
+                <img src="Poster/alice.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/two.png" alt="" class="rank">
+                <img src="Poster/fauda.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/three.png" alt="" class="rank">
+                <img src="Poster/junge.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/four.png" alt="" class="rank">
+                <img src="Poster/kaleidoscope.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/five.png" alt="" class="rank">
+                <img src="Poster/kantara.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/six.png" alt="" class="rank">
+                <img src="Poster/kungFuPanda.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/seven.png" alt="" class="rank">
+                <img src="Poster/Khakee.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/eight.png" alt="" class="rank">
+                <img src="Poster/rrr.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/nine.png" alt="" class="rank">
+                <img src="Poster/vv.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/ten.png" alt="" class="rank">
+                <img src="Poster/wednesday.jpg" alt="" class="poster"/>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="showtitle">
+            <strong> Continue watching</strong>
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail"> 
+                <img src="Images/extraction.png" alt="" width="100%"/>
+                
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/planet.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/office.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/dkRises.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/DarkKnight.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/gk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/hulk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/spaceforce.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/suits.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/queens.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/sg.png" alt="" width="100%"/>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="showtitle">
+            <strong> Top 10 TV Shows</strong> 
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail2">
+                <img src="/Rank/one.png" alt="" class="rank">
+                <img src="Poster/Witcher.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/two.png" alt="" class="rank">
+                <img src="Poster/office.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/three.png" alt="" class="rank">
+                <img src="Poster/junge.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/four.png" alt="" class="rank">
+                <img src="Poster/kaleidoscope.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/five.png" alt="" class="rank">
+                <img src="Poster/daredevil.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/six.png" alt="" class="rank">
+                <img src="Poster/sherlock.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/seven.png" alt="" class="rank">
+                <img src="Poster/Blackmirror.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/eight.png" alt="" class="rank">
+                <img src="Poster/alice.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/nine.png" alt="" class="rank">
+                <img src="Poster/vv.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/ten.png" alt="" class="rank">
+                <img src="Poster/wednesday.jpg" alt="" class="poster"/>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="showtitle">
+            <strong> Thrillers & Mysteries</strong>
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail"> 
+                <img src="Images/extraction.png" alt="" width="100%"/>
+                
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/adam.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/witcher.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/Spiderman.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/rrr.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/kk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/hulk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/queens.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/suits.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/lupin.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/gk.png" alt="" width="100%"/>
+            </div>
+        </div>
+    </div>
+
+    
+    <div>
+        <div class="showtitle">
+            <strong> Blockbuster Action & Adventure</strong>
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail"> 
+                <img src="Images/extraction.png" alt="" width="100%"/>
+                
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/adam.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/witcher.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/Spiderman.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/rrr.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/kk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/hulk.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/queens.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/suits.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/lupin.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/gk.png" alt="" width="100%"/>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div>
+        <div class="showtitle">
+            <strong> Top 10 Movies</strong> 
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail2">
+                <img src="/Rank/one.png" alt="" class="rank">
+                <img src="Poster/kantara.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/two.png" alt="" class="rank">
+                <img src="Poster/rrr.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/three.png" alt="" class="rank">
+                <img src="Poster/inception.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/four.png" alt="" class="rank">
+                <img src="Poster/interstellar.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/five.png" alt="" class="rank">
+                <img src="Poster/Source-Code.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/six.png" alt="" class="rank">
+                <img src="Poster/Tenet.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/seven.png" alt="" class="rank">
+                <img src="Poster/Edge-of-Tomorrow.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/eight.png" alt="" class="rank">
+                <img src="Poster/matrix.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/nine.png" alt="" class="rank">
+                <img src="Poster/quietPlacejpg.jpg" alt="" class="poster"/>
+            </div>
+            <div class="thumbnail2">
+                <img src="/Rank/ten.png" alt="" class="rank">
+                <img src="Poster/dontbreathe.jpg" alt="" class="poster"/>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="showtitle">
+            <strong> Blockbuster Action & Adventure</strong>
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail"> 
+                <img src="Images/intern.png" alt="" width="100%"/>
+                
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/lupin.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/sg.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/inception.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/planet.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/mi.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/anotherlife.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/av.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/bbt.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/money.png" alt="" width="100%"/>
+            </div>
+            <div class="thumbnail"> 
+                <img src="Images/gk.png" alt="" width="100%"/>
+            </div>
+        </div>
     </div>
 
 
     <footer>
         <!-- Showing social accounts -->
-        <div class="container" style="padding: 12px 0 5px 12px;">
+        <div class="container" style="padding: 12px 0 5px 12px; font-size: 1.3vw;">
             <a class="box" href="https://www.facebook.com/NetflixIN/" target="_blank">
                 <i class="fa fa-facebook"></i>
             </a>
@@ -219,8 +601,6 @@
             </a>
         </div>
 
-        <br>
-        
         <!-- Showing Important links -->
         <div class="container1">
             <ul>
@@ -245,10 +625,10 @@
             </ul>
         </div>
 
-        <div style="border: grey solid 2px; width: fit-content; color: grey; margin-left: 10px;">
+        <div style="border: grey solid 2px; width: fit-content; color: grey; margin-left: 10px; font-size: 1vw;">
             <span style="color: grey; padding: 4px;">Service Code</span>
         </div>
-        <div style="color: grey; margin: 1%;">
+        <div style="color: grey; margin: 1%; font-size: 1vw;">
             <i class="fa fa-copyright fa-sm"></i>
             1997-2023 Netflix, Inc.
         </div>

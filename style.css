@@ -1,10 +1,11 @@
 body {
-    background-color: black;
+    /* background-color: black; */
     color: white;
     overflow-x: hidden;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     /* object-fit:; */
     margin: 0;
+    background-color: #141414;
 }
 
 /* body::-webkit-scrollbar{
@@ -18,7 +19,8 @@ header {
     top: 0px;
     position: sticky;
     margin-bottom: 5px;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #141414;
     z-index: 10;
 }
 
@@ -60,10 +62,22 @@ a {
     background-color: rgb(43, 43, 43);
     list-style-type: none;
     text-align: left;
+    width: 100%;
 }
 
 .Profile-item {
     display: none;
+}
+
+.Profile-item li {
+    padding: 0.5vh;
+}
+
+.icon, .Profile-item li span{
+    /* text-align: center; */
+    position: relative;
+    bottom: 0.5vh;
+    font-size: 2vh;
 }
 
 @media screen and (max-width: 900px) {
@@ -89,9 +103,23 @@ a {
         top: 100%;
         margin-top: 0;
         border: solid rgb(53, 52, 52) 2px;
-        width: 175px;
-        background-color: rgb(43, 43, 43);
+        width: 35vw;
+        /* background-color: rgb(43, 43, 43, 0.2); */
         padding: 5px 2px 5px 2px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .display-content:hover .display-content-item li {   
+        text-align: center;
+        padding: 1vw 2vw 1vw 0vw;
+    }
+
+    .display-content-item li:hover{
+        background-color: rgb(250,250,250,0.1);    
+    }
+
+    .Profile:hover .Profile-item {
+        width: 200px;
     }
 }
 
@@ -111,8 +139,7 @@ a {
 }
 
 .display-content-item li:hover{
-    background-color: rgb(250,250,250,0.5);
-    width: 100%;
+    background-color: rgb(250,250,250,0.1);
 }
 
 /* .display-content-item {
@@ -171,6 +198,7 @@ footer div ul li {
     padding: 4px;
     justify-content: left;
     font-size: 1vw;
+    white-space: nowrap;
 }
 
 .video{
@@ -182,19 +210,20 @@ footer div ul li {
 }
 
 #iconBox1, #iconBox2{
-    width: 90px;
-    height: 40px;
+    width: 100%;
+    height: 6vh;
     background-color: white;
     border-radius: 12%;
     color : black;
 }
+
 #iconBox3{
     /* width: 90px;
     height: 40px; */
     width: 35px;
     height: 35px;
     padding-top: 2px;
-    border-radius: 30%;
+    border-radius: 40%;
 }
 #iconBox4{
     border-left: white solid 2px;
@@ -212,7 +241,7 @@ footer div ul li {
 
 #grid{
     display: grid;
-    grid-template-columns: 9% 9% auto 6% 6%;
+    grid-template-columns: 8% 10% auto 6% 6%;
     padding: 20px;
     column-gap: 1%;
     width: 99%;
@@ -245,12 +274,13 @@ footer div ul li {
 }
 
 .showtitle{
-    font-size: 2vw;
-    height: 3vw;
+    font-size: 1.5vw;
+    height: 2vw;
     width: 95%;
-    border: red solid 2px;
+    /* border: red solid 2px; */
     position: relative;
     left: 2vw;
+    padding-top: 1vw;
 }
 
 #showtitle1{
@@ -292,15 +322,18 @@ footer div ul li {
 }
 
 
-.addborder{
+#addborder{
     border-top: solid white 2px;
+    text-align: center;
+    padding-top: 1vw;
 }
 
-.bth{
+.btn{
     padding: 10px;
     border-radius: 15%;
     height: 100%;
     width: 100%;
+    font-size: 1vw;
 }
 
 #bth1{
@@ -309,3 +342,84 @@ footer div ul li {
     color : black;
 
 }
+
+.profileImage{
+    height: 3vh;
+}
+
+.carousel{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-gap: 1vw;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    left: 2vw;
+    padding: 1vw;
+    padding-bottom: 2vw;
+    padding-right: 5vw;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    /* border: red solid 2px; */
+    height: 7.88vw;
+    width: 14vw;
+    border-radius: 5%;
+}
+
+.thumbnail2 {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    /* border: red solid 2px; */
+    height: 10.2vw;
+    width: 14vw;
+    border-radius: 2%;
+}
+
+.rank{
+    height:100%;
+    width:60%;
+}
+
+.poster{
+    height: 100%; 
+    width:55%;
+    z-index: 1;
+    position: absolute; 
+    right: 0;
+}
+
+.explore{
+    display: none;
+    color: #54b9c5;
+    font-weight: bold;
+}
+
+.showtitle:hover .explore, .explore:hover .exploreMore{
+    display: inline;
+}
+
+.explore:hover .exploreHide{
+    visibility: hidden;
+}
+
+.explore .exploreMore{
+    display: none;
+    font-size: 1vw;
+}
+
