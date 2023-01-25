@@ -2,7 +2,7 @@ body {
     /* background-color: black; */
     color: white;
     overflow-x: hidden;
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-family: myFirstFont, Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     /* object-fit:; */
     margin: 0;
     background-color: #141414;
@@ -50,7 +50,7 @@ a {
     color: grey;
 }
 
-.Profile{
+.Profile {
     padding-right: 3vw;
 }
 
@@ -76,7 +76,8 @@ a {
     padding: 0.5vh;
 }
 
-.icon, .Profile-item li span{
+.icon,
+.Profile-item li span {
     /* text-align: center; */
     position: relative;
     bottom: 0.5vh;
@@ -112,13 +113,13 @@ a {
         background-color: rgba(0, 0, 0, 0.9);
     }
 
-    .display-content:hover .display-content-item li {   
+    .display-content:hover .display-content-item li {
         text-align: center;
         padding: 1vw 2vw 1vw 0vw;
     }
 
-    .display-content-item li:hover{
-        background-color: rgb(250,250,250,0.1);    
+    .display-content-item li:hover {
+        background-color: rgb(250, 250, 250, 0.1);
     }
 
     .Profile:hover .Profile-item {
@@ -141,8 +142,8 @@ a {
 
 }
 
-.display-content-item li:hover{
-    background-color: rgb(250,250,250,0.1);
+.display-content-item li:hover {
+    background-color: rgb(250, 250, 250, 0.1);
 }
 
 footer {
@@ -187,28 +188,29 @@ footer div ul li {
     white-space: nowrap;
 }
 
-.video{
+.video {
     position: absolute;
     width: 100%;
     top: 3vh;
     object-fit: cover;
-    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+    -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
 }
 
-#iconBox1, #iconBox2{
+#iconBox1,
+#iconBox2 {
     width: 100%;
     height: 6vh;
     background-color: white;
     border-radius: 10px;
-    color : black;
+    color: black;
 }
 
-#iconBox2{
+#iconBox2 {
     background-color: rgba(109, 109, 110, 0.7);
     color: white;
 }
 
-#iconBox3{
+#iconBox3 {
     /* width: 90px;
     height: 40px; */
     width: 35px;
@@ -216,21 +218,22 @@ footer div ul li {
     padding-top: 2px;
     border-radius: 40%;
 }
-#iconBox4{
+
+#iconBox4 {
     border-left: white solid 2px;
     text-align: center;
-    background-color: rgba(51,51,51,.6);
+    background-color: rgba(51, 51, 51, .6);
     color: white;
 }
 
-#id1{
+#id1 {
     position: absolute;
     top: 35vw;
-    left: 5vw; 
+    left: 5vw;
     width: 95%;
 }
 
-#grid{
+#grid {
     display: grid;
     grid-template-columns: 8% 10% auto 6% 6%;
     padding: 20px;
@@ -238,20 +241,20 @@ footer div ul li {
     width: 99%;
 }
 
-.iconBox{
+.iconBox {
     border: solid white 2px;
-    border-radius: 15%;    
+    border-radius: 15%;
     display: inline-grid;
     grid-template-columns: auto auto;
     padding: 10px;
 }
 
-.iconStyle{
+.iconStyle {
     padding: 10px;
     font-size: 18px;
 }
 
-.showtitle{
+.showtitle {
     font-size: 1.5vw;
     height: 2vw;
     width: 95%;
@@ -262,17 +265,17 @@ footer div ul li {
     padding-top: 1vw;
 }
 
-#showtitle1{
+#showtitle1 {
     font-size: 4vw;
     height: 15vw;
     width: 20vw;
     position: absolute;
     top: 17vw;
     left: 5vw;
-    
+
 }
 
-#showDiscription{
+#showDiscription {
     font-size: 1vw;
     height: 20vh;
     /* width: 30vw; */
@@ -282,13 +285,13 @@ footer div ul li {
     left: 5vw;
 }
 
-#addborder{
+#addborder {
     border-top: solid white 2px;
     text-align: center;
     padding-top: 1vw;
 }
 
-.btn{
+.btn {
     padding: 10px;
     border-radius: 15%;
     height: 100%;
@@ -296,19 +299,19 @@ footer div ul li {
     font-size: 1vw;
 }
 
-#bth1{
+#bth1 {
     background-color: white;
     border-radius: 10%;
-    color : black;
+    color: black;
 
 }
 
-.profileImage{
+.profileImage {
     height: 3.1vh;
     border-radius: 2px;
 }
 
-.carousel{
+.carousel, .carousel2 {
     display: grid;
     grid-auto-columns: max-content;
     grid-auto-flow: column;
@@ -322,7 +325,7 @@ footer div ul li {
     padding-right: 5vw;
 }
 
-.carousel::-webkit-scrollbar {
+.carousel::-webkit-scrollbar, .carousel2::-webkit-scrollbar {
     display: none;
 }
 
@@ -333,15 +336,99 @@ footer div ul li {
     align-items: flex-start;
     position: relative;
     overflow: hidden;
-    /* border: red solid 2px;
-    height: 7.88vw;
-    width: 14vw; */
     height: 8.3vw;
     width: 14.74vw;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
-.bar{
+.thumbnail:hover {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 5px;
+    background-color: #141414;
+    z-index: 2;
+    overflow: unset;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.subthumbnail{
+    display: none;
+}
+
+.thumbnail:hover .subthumbnail {
+    display: unset;
+    height: 10vw;
+    width: 20vw;
+}
+
+/* .thumbnail:hover .forimage{
+    display: none;
+     visibility: hidden;
+} */
+
+.thumbnail img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subthumbnail:hover {
+    height: 10vw;
+    width: 20vw;
+    z-index: 2;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+.row2part1 {
+    color: rgb(70, 211, 105);
+    padding-left: 1vw;
+    font-size: 1vw;
+}
+
+.row2part2 {
+    border: grey solid 2px;
+    width: fit-content;
+    color: grey;
+    font-size: 1vw;
+    margin: 1vw;
+}
+
+.row2part3 {
+    padding: 1vw;
+    font-size: 1vw;
+}
+
+.row2part4 {
+    position: relative;
+    top: 0.25vw;
+    font-size: 1vw;
+}
+
+.row3 {
+    padding: 1vw;
+    font-size: 1vw;
+}
+
+
+.row4{
+    display: flex; flex-direction: row; align-items: center; justify-content: space-evenly; 
+}
+
+.row5part1{
+    width:50%; position: relative; bottom: 0.4vw;
+}
+
+.row5part2{
+    padding: 1vw; font-size: 1vw;
+}
+
+.bar {
     height: 10vw;
 }
 
@@ -349,7 +436,7 @@ footer div ul li {
     border-radius: 5%;
 }
 
-.bar div {
+.bar .bar2 {
     position: absolute;
     bottom: 1vw;
     /* border: #e50914 solid 2px; */
@@ -369,59 +456,59 @@ footer div ul li {
     width: 14vw;
     height: 11vw;
     width: 14.75vw;
-
     border-radius: 2%;
 }
 
-.rank{
-    height:100%;
-    width:60%;
+.rank {
+    height: 100%;
+    width: 60%;
 }
 
-.poster{
-    height: 100%; 
-    width:55%;
+.poster {
+    height: 100%;
+    width: 55%;
     z-index: 1;
-    position: absolute; 
+    position: absolute;
     right: 0;
 }
 
-.explore{
+.explore {
     display: none;
     color: #54b9c5;
     font-weight: bold;
 }
 
-.showtitle:hover .explore, .explore:hover .exploreMore{
+.showtitle:hover .explore,
+.explore:hover .exploreMore {
     display: inline;
 }
 
-.explore:hover .exploreHide{
+.explore:hover .exploreHide {
     visibility: hidden;
 }
 
-.explore .exploreMore{
+.explore .exploreMore {
     display: none;
     font-size: 1vw;
 }
 
-progress{
+progress {
     -webkit-appearance: none;
     height: 3px;
     width: 100%;
 }
 
-progress::-webkit-progress-bar{
-    background-color: hsla(0,0%,100%,.3);
+progress::-webkit-progress-bar {
+    background-color: hsla(0, 0%, 100%, .3);
     border-radius: 2px;
 }
 
-progress::-webkit-progress-value{
+progress::-webkit-progress-value {
     background-color: #e50914;
     border-radius: 2px;
 }
 
-.AngleL{
+.AngleL {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,48 +516,71 @@ progress::-webkit-progress-value{
     height: 8.5vw;
     width: 2.5vw;
     z-index: 1;
-    position: relative; 
+    position: relative;
     left: 0;
     bottom: 10.4vw;
     padding-left: 0.5vw;
 }
 
-
-
-.AngleR{
+.AngleR {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 8.5vw;
     width: 2.5vw;
     z-index: 1;
-    position: relative; 
+    position: relative;
     left: 96vw;
     bottom: 18.8vw;
     padding-right: 0.5vw;
 }
 
-.AngleL:hover, .AngleR:hover{
-    background: hsla(0,0%,8%,.7)
+.carousel:hover ~ span{
+    display: none;
 }
 
-.leftAngle{
-    font-size: 2vw;
+
+.thumbnail:hover{
+    transition-delay: 20ms;
 }
-.rightAngle{
+
+
+.AngleL:hover,
+.AngleR:hover {
+    background: hsla(0, 0%, 8%, .7)
+}
+
+.leftAngle {
     font-size: 2vw;
 }
 
-.class{
+.rightAngle {
+    font-size: 2vw;
+}
+
+.class {
     height: 15vw;
 }
 
-#idContinue{
+#idContinue {
     height: 13vw;
     padding: 1vw 0 1vw 0vw;
 }
 
-#idContinue .AngleL{
+/* #idContinue .thumbnail:hover{
+    height: 25vw;
+} */
+
+/* #idContinue .thumbnail:hover .subthumbnail{
+    position: relative;
+} */
+
+.thumbnail:hover .bar2{
+    display: none;  
+}
+
+
+#idContinue .AngleL {
     height: 8.25vw;
     position: relative;
     bottom: 12vw;
@@ -483,12 +593,12 @@ progress::-webkit-progress-value{
     left: 95.9vw;
 }
 
-.classRank{
+.classRank {
     height: 15vw;
     padding: 0vw 0vw 2vw 0vw;
 }
 
-.classRank .AngleL{
+.classRank .AngleL {
     height: 11vw;
     position: relative;
     bottom: 13vw;
@@ -501,10 +611,20 @@ progress::-webkit-progress-value{
     left: 95.9vw;
 }
 
-.class .AngleL i, #idContinue .AngleL i, .class .AngleR i, #idContinue .AngleR i, .classRank .AngleL i, .classRank .AngleR i{
+.class .AngleL i,
+#idContinue .AngleL i,
+.class .AngleR i,
+#idContinue .AngleR i,
+.classRank .AngleL i,
+.classRank .AngleR i {
     display: none;
 }
 
-.class:hover .AngleL i, #idContinue:hover .AngleL i, .class:hover .AngleR i, #idContinue:hover .AngleR i, .classRank:hover .AngleL i, .classRank:hover .AngleR i{
+.class:hover .AngleL i,
+#idContinue:hover .AngleL i,
+.class:hover .AngleR i,
+#idContinue:hover .AngleR i,
+.classRank:hover .AngleL i,
+.classRank:hover .AngleR i {
     display: unset;
 }
