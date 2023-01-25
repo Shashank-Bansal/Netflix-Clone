@@ -84,7 +84,7 @@ a {
     font-size: 2vh;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 884) {
     #showthis {
         display: none;
     }
@@ -127,7 +127,23 @@ a {
     }
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+    .classRank{
+        height: 1000px;
+        border: red solid 2px;
+    }
+
+    .carousel2{
+        height: 1000px;
+    }
+
+    .thumbnail2 {
+        height: 1000px;
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 885px) {
     .display-content {
         display: none;
     }
@@ -311,7 +327,8 @@ footer div ul li {
     border-radius: 2px;
 }
 
-.carousel, .carousel2 {
+.carousel,
+.carousel2 {
     display: grid;
     grid-auto-columns: max-content;
     grid-auto-flow: column;
@@ -325,7 +342,8 @@ footer div ul li {
     padding-right: 5vw;
 }
 
-.carousel::-webkit-scrollbar, .carousel2::-webkit-scrollbar {
+.carousel::-webkit-scrollbar,
+.carousel2::-webkit-scrollbar {
     display: none;
 }
 
@@ -351,7 +369,7 @@ footer div ul li {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.subthumbnail{
+.subthumbnail {
     display: none;
 }
 
@@ -416,16 +434,22 @@ footer div ul li {
 }
 
 
-.row4{
-    display: flex; flex-direction: row; align-items: center; justify-content: space-evenly; 
+.row4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.row5part1{
-    width:50%; position: relative; bottom: 0.4vw;
+.row5part1 {
+    width: 50%;
+    position: relative;
+    bottom: 0.4vw;
 }
 
-.row5part2{
-    padding: 1vw; font-size: 1vw;
+.row5part2 {
+    padding: 1vw;
+    font-size: 1vw;
 }
 
 .bar {
@@ -535,12 +559,12 @@ progress::-webkit-progress-value {
     padding-right: 0.5vw;
 }
 
-.carousel:hover ~ span{
+.carousel:hover~span {
     display: none;
 }
 
 
-.thumbnail:hover{
+.thumbnail:hover {
     transition-delay: 20ms;
 }
 
@@ -567,16 +591,8 @@ progress::-webkit-progress-value {
     padding: 1vw 0 1vw 0vw;
 }
 
-/* #idContinue .thumbnail:hover{
-    height: 25vw;
-} */
-
-/* #idContinue .thumbnail:hover .subthumbnail{
-    position: relative;
-} */
-
-.thumbnail:hover .bar2{
-    display: none;  
+.thumbnail:hover .bar2 {
+    display: none;
 }
 
 

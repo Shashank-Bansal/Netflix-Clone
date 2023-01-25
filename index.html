@@ -14,83 +14,89 @@
 
 <body>
     <header class="container">
-            <a class="box" href="https://www.netflix.com/browse" target="_blank" style="padding-right: 2vw; padding-left: 2vw;">
-                <img src="netflix_official_logo.png" alt="Netflix Logo" width=100rem />
-            </a>
+        <a class="box" href="https://www.netflix.com/browse" target="_blank"
+            style="padding-right: 2vw; padding-left: 2vw;">
+            <img src="netflix_official_logo.png" alt="Netflix Logo" width=100rem />
+        </a>
 
-            <div class="container hidethis">
-                <a class="box boxSize" href="https://www.netflix.com/browse" target="_blank">
-                    Home
-                </a>
-                <a class="box boxSize" href="https://www.netflix.com/browse/genre/83" target="_blank">
-                    TV shows
-                </a>
-                <a class="box boxSize" href="https://www.netflix.com/browse/genre/34399" target="_blank">
-                    Movies
-                </a>
-                <a class="box boxSize" href="https://www.netflix.com/latest" target="_blank">
-                    New & Popular
-                </a>
-                <a class="box boxSize" href="https://www.netflix.com/browse/my-list" target="_blank">
-                    My List
-                </a>
-                <a class="box boxSize" href="https://www.netflix.com/browse/original-audio" target="_blank">
-                    Browse by languages
-                </a>
+        <div class="container hidethis">
+            <a class="box boxSize" href="https://www.netflix.com/browse" target="_blank">
+                Home
+            </a>
+            <a class="box boxSize" href="https://www.netflix.com/browse/genre/83" target="_blank">
+                TV shows
+            </a>
+            <a class="box boxSize" href="https://www.netflix.com/browse/genre/34399" target="_blank">
+                Movies
+            </a>
+            <a class="box boxSize" href="https://www.netflix.com/latest" target="_blank">
+                New & Popular
+            </a>
+            <a class="box boxSize" href="https://www.netflix.com/browse/my-list" target="_blank">
+                My List
+            </a>
+            <a class="box boxSize" href="https://www.netflix.com/browse/original-audio" target="_blank">
+                Browse by languages
+            </a>
+        </div>
+
+        <div class="display-content box">
+            <p>Browse &nbsp; <i class="fa-sharp fa-solid fa-caret-down"></i></p>
+            <ul style="list-style-type:none;" class="display-content-item">
+                <li><a href="https://www.netflix.com/browse" target="_blank">
+                        Home
+                    </a></li>
+                <li><a href="https://www.netflix.com/browse/genre/83" target="_blank">
+                        TV shows
+                    </a></li>
+                <li><a href="https://www.netflix.com/browse/genre/34399" target="_blank">
+                        Movies
+                    </a></li>
+                <li><a href="https://www.netflix.com/latest" target="_blank">
+                        New & Popular
+                    </a></li>
+                <li><a href="https://www.netflix.com/browse/my-list" target="_blank">
+                        My List
+                    </a></li>
+                <li><a href="https://www.netflix.com/browse/original-audio" target="_blank">
+                        Browse by languages
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="container" style="position: absolute; right: 7px;">
+            <div class="box">
+                <i class="fa fa-search"></i>
+            </div>
+            <a class="box" id="showthis" href="https://www.netflix.com/Kids" target="_blank">
+                Children
+            </a>
+            <div class="box">
+                <i class="fa fa-bell"></i>
             </div>
 
-            <div class="display-content box">
-                <p>Browse &nbsp; <i class="fa-sharp fa-solid fa-caret-down"></i></p>
-                <ul style="list-style-type:none;" class="display-content-item">
-                    <li><a href="https://www.netflix.com/browse" target="_blank">
-                            Home
-                        </a></li>
-                    <li><a href="https://www.netflix.com/browse/genre/83" target="_blank">
-                            TV shows
-                        </a></li>
-                    <li><a href="https://www.netflix.com/browse/genre/34399" target="_blank">
-                            Movies
-                        </a></li>
-                    <li><a href="https://www.netflix.com/latest" target="_blank">
-                            New & Popular
-                        </a></li>
-                    <li><a href="https://www.netflix.com/browse/my-list" target="_blank">
-                            My List
-                        </a></li>
-                    <li><a href="https://www.netflix.com/browse/original-audio" target="_blank">
-                            Browse by languages
-                        </a></li>
+            <div class="Profile">
+                <div class="box"> <img src="./Profile/Profile4.png" alt="Profile" class="profileImage" /> &nbsp;&nbsp;<i
+                        class="fa-sharp fa-solid fa-caret-down icon"></i></div>
+                <ul class="Profile-item">
+                    <li><img src="./Profile/Profile.png" alt="Profile 1" class="profileImage" /> <span>&nbsp; Profile
+                            1</span></li>
+                    <li><img src="./Profile/Profile2.png" alt="Profile 2" class="profileImage" /> <span>&nbsp; Profile
+                            2</span></li>
+                    <li><img src="./Profile/Profile3.png" alt="Profile 3" class="profileImage" /> <span>&nbsp; Profile
+                            3</span></li>
+                    <li><img src="./Profile/Children.png" alt="Profile 3" class="profileImage" /> <span>&nbsp;
+                            Children</span></li>
+
+                    <li><i class="fa-sharp fa-solid fa-pen"></i> &nbsp; Manage Profiles</li>
+                    <li><i class="fa-solid fa-right-left"></i> &nbsp; Transfer Profile</li>
+                    <li><i class="fas fa-user-alt"></i> &nbsp; Account</li>
+                    <li style="padding-bottom: 10px;"><i class="fas fa-question-circle"></i> &nbsp; Help Centre</li>
+
+                    <li id="addborder">Sign out of Netflix</li>
                 </ul>
             </div>
-
-            <div class="container" style="position: absolute; right: 7px;">
-                <div class="box">
-                    <i class="fa fa-search"></i>
-                </div>
-                <a class="box" id="showthis" href="https://www.netflix.com/Kids" target="_blank">
-                    Children
-                </a>
-                <div class="box">
-                    <i class="fa fa-bell"></i>
-                </div>
-
-                <div class="Profile">
-                    <div class="box"> <img src="./Profile/Profile4.png" alt="Profile" class="profileImage"/> &nbsp;&nbsp;<i class="fa-sharp fa-solid fa-caret-down icon" ></i></div>
-                    <ul class="Profile-item">
-                        <li><img src="./Profile/Profile.png" alt="Profile 1" class="profileImage"/> <span>&nbsp; Profile 1</span></li>
-                        <li><img src="./Profile/Profile2.png" alt="Profile 2" class="profileImage"/> <span>&nbsp; Profile 2</span></li>
-                        <li><img src="./Profile/Profile3.png" alt="Profile 3" class="profileImage"/> <span>&nbsp; Profile 3</span></li>
-                        <li><img src="./Profile/Children.png" alt="Profile 3" class="profileImage"/> <span>&nbsp; Children</span></li>
-
-                        <li><i class="fa-sharp fa-solid fa-pen"></i> &nbsp; Manage Profiles</li>
-                        <li><i class="fa-solid fa-right-left"></i> &nbsp; Transfer Profile</li>
-                        <li><i class="fas fa-user-alt"></i> &nbsp; Account</li>
-                        <li style="padding-bottom: 10px;"><i class="fas fa-question-circle"></i> &nbsp; Help Centre</li>
-
-                        <li id="addborder">Sign out of Netflix</li>
-                    </ul>
-                </div>
-            </div>
+        </div>
     </header>
 
     <!-- Cover Display -->
@@ -105,20 +111,22 @@
             The Silent Sea
         </div>
 
-        <div id="showDiscription">During a perilous 24-hour mission on the moon, space explorers try to retrieve samples from an abandoned research facility steeped in classified secrets.</div>
-        
+        <div id="showDiscription">During a perilous 24-hour mission on the moon, space explorers try to retrieve samples
+            from an abandoned research facility steeped in classified secrets.</div>
+
         <div id="id1">
             <div id="grid">
                 <button class="btn" id="iconBox1"><i class="fa-solid fa-play"></i><strong>&nbsp; Play </strong></button>
-                <button class="btn" id="iconBox2"><i class="fa-solid fa-circle-info fa-l"></i><strong> More Info </strong></button>
+                <button class="btn" id="iconBox2"><i class="fa-solid fa-circle-info fa-l"></i><strong> More Info
+                    </strong></button>
                 <div></div>
                 <div class="iconBox" id="iconBox3">
                     <div class="iconStyle"><i class="fa-solid fa-volume-high fa-2xs"></i></div>
-                </div>  
+                </div>
                 <div class="iconStyle" id="iconBox4">A</div>
             </div>
         </div>
-        <div>  </div>
+        <div> </div>
     </div>
 
     <br>
@@ -134,17 +142,17 @@
             </span>
         </div>
         <div class="carousel">
-            <div class="thumbnail"> 
-                <img class="forimage" src="./Images/extraction.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img class="forimage" src="./Images/extraction.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <!-- <img src="./Images/av.png" alt="" width="100%"/> -->
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -166,7 +174,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -175,16 +183,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/inception.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/inception.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -206,7 +214,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -215,16 +223,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/office.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/office.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -246,7 +254,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -255,16 +263,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/dkRises.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/dkRises.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -286,7 +294,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -295,16 +303,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/hulk.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/hulk.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -326,7 +334,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -335,16 +343,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/gk.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/gk.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -366,7 +374,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -375,16 +383,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/planet.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/planet.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -406,7 +414,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -415,16 +423,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/spaceforce.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/spaceforce.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -446,7 +454,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -455,16 +463,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/suits.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/suits.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -486,7 +494,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -495,16 +503,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/queens.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/queens.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -526,7 +534,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -535,16 +543,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/sg.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/sg.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -566,7 +574,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -576,21 +584,21 @@
                 </div>
             </div>
         </div>
-        
-             
+
+
         <span class="AngleL">
             <i class="fa-sharp fa-solid fa-angle-left leftAngle"></i>
         </span>
         <span class="AngleR">
             <i class="fa-sharp fa-solid fa-angle-right rightAngle"></i>
         </span>
-   
+
     </div>
 
     <!-- Row2 -->
     <div class="classRank">
         <div class="showtitle">
-            <strong> Top 10 Movies & Shows</strong> 
+            <strong> Top 10 Movies & Shows</strong>
             <span class="explore">
                 <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
                 <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
@@ -599,43 +607,43 @@
         <div class="carousel2">
             <div class="thumbnail2">
                 <img src="./Rank/one.png" alt="" class="rank">
-                <img src="Poster/alice.jpg" alt="" class="poster"/>
+                <img src="Poster/alice.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/two.png" alt="" class="rank">
-                <img src="Poster/fauda.jpg" alt="" class="poster"/>
+                <img src="Poster/fauda.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/three.png" alt="" class="rank">
-                <img src="Poster/junge.jpg" alt="" class="poster"/>
+                <img src="Poster/junge.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/four.png" alt="" class="rank">
-                <img src="Poster/kaleidoscope.jpg" alt="" class="poster"/>
+                <img src="Poster/kaleidoscope.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/five.png" alt="" class="rank">
-                <img src="Poster/kantara.jpg" alt="" class="poster"/>
+                <img src="Poster/kantara.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/six.png" alt="" class="rank">
-                <img src="Poster/kungFuPanda.jpg" alt="" class="poster"/>
+                <img src="Poster/kungFuPanda.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/seven.png" alt="" class="rank">
-                <img src="Poster/Khakee.jpg" alt="" class="poster"/>
+                <img src="Poster/Khakee.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/eight.png" alt="" class="rank">
-                <img src="Poster/rrr.jpg" alt="" class="poster"/>
+                <img src="Poster/rrr.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/nine.png" alt="" class="rank">
-                <img src="Poster/vv.jpg" alt="" class="poster"/>
+                <img src="Poster/vv.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/ten.png" alt="" class="rank">
-                <img src="Poster/wednesday.jpg" alt="" class="poster"/>
+                <img src="Poster/wednesday.jpg" alt="" class="poster" />
             </div>
         </div>
 
@@ -659,360 +667,361 @@
             </span>
         </div>
         <div class="carousel">
-            <div class="thumbnail bar"> 
-                <img src="./Images/imitationGame.png" alt="" width="100%"/>
+            <div class="thumbnail bar">
+                <img src="./Images/imitationGame.png" alt="" width="100%" />
                 <div class="subthumbnail"">
                     <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
+                        <div class =" row1">
+                    <div style="font-size: 1.5vw;">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                    </div>
+                    <div style=" font-size: 1.5vw;">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </div>
+                    <div></div>
+                    <div style=" font-size: 1.5vw;">
+                        <i class="fa-solid fa-angle-down"></i>
                     </div>
                 </div>
-                <div class="bar2"><progress max="100" min="10" value="50"></progress></div>
+
+                <div class="row4">
+                    <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+                    <span class="row5part2">27 of 120m</span>
+                </div>
             </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/planet.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
+        </div>
+        <div class="bar2"><progress max="100" min="10" value="50"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/planet.png" alt="" width="100%" />
+        <div class="subthumbnail"">
                     <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="20"></progress></div>
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
             </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/office.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="90"></progress></div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
             </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/rrr.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="95"></progress></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
             </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/DarkKnight.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="80"></progress></div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
             </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/kk.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="35"></progress></div>
-            </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/hulk.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="65"></progress></div>
-            </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/spaceforce.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="70"></progress></div>
-            </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/suits.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="15"></progress></div>
-            </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/queens.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="78"></progress></div>
-            </div>
-            <div class="thumbnail bar"> 
-                <img src="./Images/sg.png" alt="" width="100%"/>
-                <div class="subthumbnail"">
-                    <div >
-                        <div class ="row1">
-                            <div style="font-size: 1.5vw;">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div>
-                                <i class="fa-regular fa-circle-xmark"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div class="row4">
-                            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                            <span class="row5part2">27 of 120m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bar2"><progress max="100" min="10" value="57"></progress></div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
             </div>
         </div>
 
-        <span class="AngleL">
-            <i class="fa-sharp fa-solid fa-angle-left leftAngle"></i>
-        </span>
-        <span class="AngleR">
-            <i class="fa-sharp fa-solid fa-angle-right rightAngle"></i>
-        </span>
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="20"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/office.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="90"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/rrr.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="95"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/DarkKnight.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="80"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/kk.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="35"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/hulk.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="65"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/spaceforce.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="70"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/suits.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="15"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/queens.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="78"></progress></div>
+    </div>
+    <div class="thumbnail bar">
+        <img src="./Images/sg.png" alt="" width="100%" />
+        <div class="subthumbnail"">
+                    <div >
+                        <div class =" row1">
+            <div style="font-size: 1.5vw;">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+            </div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div></div>
+            <div style=" font-size: 1.5vw;">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="row4">
+            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part2">27 of 120m</span>
+        </div>
+    </div>
+    </div>
+    <div class="bar2"><progress max="100" min="10" value="57"></progress></div>
+    </div>
     </div>
 
+    <span class="AngleL">
+        <i class="fa-sharp fa-solid fa-angle-left leftAngle"></i>
+    </span>
+    <span class="AngleR">
+        <i class="fa-sharp fa-solid fa-angle-right rightAngle"></i>
+    </span>
+    </div>
+
+    <!-- Row4 -->
     <div class="classRank">
         <div class="showtitle">
-            <strong> Top 10 TV Shows</strong> 
+            <strong> Top 10 TV Shows</strong>
             <span class="explore">
                 <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
                 <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
@@ -1021,505 +1030,43 @@
         <div class="carousel2">
             <div class="thumbnail2">
                 <img src="./Rank/one.png" alt="" class="rank">
-                <img src="Poster/Witcher.jpg" alt="" class="poster"/>
+                <img src="Poster/Witcher.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/two.png" alt="" class="rank">
-                <img src="Poster/office.jpg" alt="" class="poster"/>
+                <img src="Poster/office.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/three.png" alt="" class="rank">
-                <img src="Poster/junge.jpg" alt="" class="poster"/>
+                <img src="Poster/junge.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/four.png" alt="" class="rank">
-                <img src="Poster/kaleidoscope.jpg" alt="" class="poster"/>
+                <img src="Poster/kaleidoscope.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/five.png" alt="" class="rank">
-                <img src="Poster/daredevil.jpg" alt="" class="poster"/>
+                <img src="Poster/daredevil.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/six.png" alt="" class="rank">
-                <img src="Poster/sherlock.jpg" alt="" class="poster"/>
+                <img src="Poster/sherlock.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/seven.png" alt="" class="rank">
-                <img src="Poster/Blackmirror.jpg" alt="" class="poster"/>
+                <img src="Poster/Blackmirror.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/eight.png" alt="" class="rank">
-                <img src="Poster/alice.jpg" alt="" class="poster"/>
+                <img src="Poster/alice.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/nine.png" alt="" class="rank">
-                <img src="Poster/vv.jpg" alt="" class="poster"/>
+                <img src="Poster/vv.jpg" alt="" class="poster" />
             </div>
             <div class="thumbnail2">
                 <img src="./Rank/ten.png" alt="" class="rank">
-                <img src="Poster/wednesday.jpg" alt="" class="poster"/>
-            </div>
-        </div>
-
-        <span class="AngleL">
-            <!-- <i class="fa-solid fa-angle-left leftAngle"></i> -->
-            <i class="fa-sharp fa-solid fa-angle-left leftAngle"></i>
-        </span>
-        <span class="AngleR">
-            <!-- <i class="fa-solid fa-angle-right rightAngle"></i> -->
-            <i class="fa-sharp fa-solid fa-angle-right rightAngle"></i>
-        </span>
-    </div>
-
-    <!-- Row4 -->
-    <div class="class">
-        <div class="showtitle">
-            <strong> Thrillers & Mysteries</strong>
-            <span class="explore">
-                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
-                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
-            </span>
-        </div>
-        <div class="carousel">
-            <div class="thumbnail"> 
-                <img src="./Images/extraction.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/adam.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/witcher.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/Spiderman.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/rrr.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/kk.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/hulk.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/queens.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/suits.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/lupin.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/gk.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+                <img src="Poster/wednesday.jpg" alt="" class="poster" />
             </div>
         </div>
 
@@ -1536,23 +1083,23 @@
     <!-- Row5 -->
     <div class="class">
         <div class="showtitle">
-            <strong> US TV Shows</strong>
+            <strong> Thrillers & Mysteries</strong>
             <span class="explore">
                 <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
                 <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
             </span>
         </div>
         <div class="carousel">
-            <div class="thumbnail"> 
-                <img src="./Images/office.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/extraction.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1574,7 +1121,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1583,16 +1130,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/bbt.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/adam.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1614,7 +1161,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1623,16 +1170,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/suits.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/witcher.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1654,7 +1201,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1663,16 +1210,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/gotham.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/Spiderman.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1694,7 +1241,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1703,16 +1250,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/lupin.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/rrr.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1734,7 +1281,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1743,16 +1290,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/queens.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/kk.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1774,7 +1321,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1783,16 +1330,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/money.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/hulk.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1814,7 +1361,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1823,16 +1370,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/planet.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/queens.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1854,7 +1401,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1863,16 +1410,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/spaceforce.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/suits.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1894,7 +1441,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1903,16 +1450,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/sg.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/lupin.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1934,7 +1481,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1943,16 +1490,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/witcher.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/gk.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -1974,7 +1521,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -1996,54 +1543,454 @@
     </div>
 
     <!-- Row6 -->
-    <div class="classRank">
+    <div class="class">
         <div class="showtitle">
-            <strong> Top 10 Movies</strong> 
+            <strong> US TV Shows</strong>
             <span class="explore">
                 <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
                 <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
             </span>
         </div>
-        <div class="carousel2">
-            <div class="thumbnail2">
-                <img src="./Rank/one.png" alt="" class="rank">
-                <img src="Poster/kantara.jpg" alt="" class="poster"/>
+        <div class="carousel">
+            <div class="thumbnail">
+                <img src="./Images/office.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/two.png" alt="" class="rank">
-                <img src="Poster/imitationGame.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/bbt.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/three.png" alt="" class="rank">
-                <img src="Poster/inception.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/suits.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/four.png" alt="" class="rank">
-                <img src="Poster/interstellar.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/gotham.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/five.png" alt="" class="rank">
-                <img src="Poster/Source-Code.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/lupin.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/six.png" alt="" class="rank">
-                <img src="Poster/Tenet.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/queens.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/seven.png" alt="" class="rank">
-                <img src="Poster/Edge-of-Tomorrow.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/money.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/eight.png" alt="" class="rank">
-                <img src="Poster/matrix.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/planet.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/nine.png" alt="" class="rank">
-                <img src="Poster/quietPlacejpg.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/spaceforce.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="thumbnail2">
-                <img src="./Rank/ten.png" alt="" class="rank">
-                <img src="Poster/dontbreathe.jpg" alt="" class="poster"/>
+            <div class="thumbnail">
+                <img src="./Images/sg.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/witcher.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -2058,454 +2005,54 @@
     </div>
 
     <!-- Row7 -->
-    <div class="class">
+    <div class="classRank">
         <div class="showtitle">
-            <strong> Blockbuster Action & Adventure</strong>
+            <strong> Top 10 Movies</strong>
             <span class="explore">
                 <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
                 <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
             </span>
         </div>
-        <div class="carousel">
-            <div class="thumbnail"> 
-                <img src="./Images/intern.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>                
+        <div class="carousel2">
+            <div class="thumbnail2">
+                <img src="./Rank/one.png" alt="" class="rank">
+                <img src="Poster/kantara.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/lupin.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/two.png" alt="" class="rank">
+                <img src="Poster/imitationGame.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/sg.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/three.png" alt="" class="rank">
+                <img src="Poster/inception.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/inception.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/four.png" alt="" class="rank">
+                <img src="Poster/interstellar.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/planet.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/five.png" alt="" class="rank">
+                <img src="Poster/Source-Code.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/mi.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/six.png" alt="" class="rank">
+                <img src="Poster/Tenet.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/anotherlife.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/seven.png" alt="" class="rank">
+                <img src="Poster/Edge-of-Tomorrow.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/av.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/eight.png" alt="" class="rank">
+                <img src="Poster/matrix.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/bbt.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/nine.png" alt="" class="rank">
+                <img src="Poster/quietPlacejpg.jpg" alt="" class="poster" />
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/money.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail"> 
-                <img src="./Images/gk.png" alt="" width="100%"/>
-                <div class="subthumbnail">
-                    <div>
-                        <div class ="row1">
-                            <div style="">
-                                <i class="fa-solid fa-circle-play"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-thumbs-up"></i>
-                            </div>
-                            <div></div>
-                            <div style=" font-size: 1.5vw;">
-                                <i class="fa-solid fa-angle-down"></i>
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="row2part1">
-                                New
-                            </span>
-                            <span class="row2part2">
-                                &nbsp;U/A 16+
-                            </span>
-                            <span class="row2part3">
-                                2h 30m
-                            </span>
-                            <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
-                            </span>
-                        </div>
-                        <div class="row3">
-                            Explosive • Rousing • Action
-                        </div>
-                    </div>
-                </div>
+            <div class="thumbnail2">
+                <img src="./Rank/ten.png" alt="" class="rank">
+                <img src="Poster/dontbreathe.jpg" alt="" class="poster" />
             </div>
         </div>
 
@@ -2522,23 +2069,23 @@
     <!-- Row8 -->
     <div class="class">
         <div class="showtitle">
-            <strong> Only on Netflix</strong>
+            <strong> Blockbuster Action & Adventure</strong>
             <span class="explore">
                 <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
                 <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
             </span>
         </div>
         <div class="carousel">
-            <div class="thumbnail"> 
-                <img src="./Images/queens.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/intern.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2560,7 +2107,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2569,16 +2116,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/sg.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/lupin.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2600,7 +2147,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2609,16 +2156,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/anotherlife.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/sg.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2640,7 +2187,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2649,16 +2196,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/slient.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/inception.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2680,7 +2227,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2689,16 +2236,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/adam.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/planet.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2720,7 +2267,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2729,16 +2276,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/extraction.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/mi.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2760,7 +2307,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2769,16 +2316,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/money.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/anotherlife.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2800,7 +2347,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2809,16 +2356,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/planet.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/av.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2840,7 +2387,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2849,16 +2396,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/spaceforce.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/bbt.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2880,7 +2427,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2889,16 +2436,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/lupin.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/money.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2920,7 +2467,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2929,16 +2476,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/witcher.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/gk.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -2960,7 +2507,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -2982,6 +2529,468 @@
     </div>
 
     <!-- Row9 -->
+    <div class="class">
+        <div class="showtitle">
+            <strong> Only on Netflix</strong>
+            <span class="explore">
+                <span class="exploreHide"><i class="fa-solid fa-angle-right fa-sm"></i></span>
+                <span class="exploreMore">&nbsp; Explore All&nbsp;<i class="fa-solid fa-angle-right fa-sm"></i></span>
+            </span>
+        </div>
+        <div class="carousel">
+            <div class="thumbnail">
+                <img src="./Images/queens.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/sg.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/anotherlife.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/slient.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/adam.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/extraction.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/money.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/planet.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/spaceforce.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/lupin.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <img src="./Images/witcher.png" alt="" width="100%" />
+                <div class="subthumbnail">
+                    <div>
+                        <div class="row1">
+                            <div style="">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;"">
+                                <i class=" fa-solid fa-circle-plus"></i>
+                            </div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div></div>
+                            <div style=" font-size: 1.5vw;">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="row2part1">
+                                New
+                            </span>
+                            <span class="row2part2">
+                                &nbsp;U/A 16+
+                            </span>
+                            <span class="row2part3">
+                                2h 30m
+                            </span>
+                            <span class="row2part4">
+                                <img src="Images/image.png" height=20vw />
+                            </span>
+                        </div>
+                        <div class="row3">
+                            Explosive • Rousing • Action
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="AngleL">
+            <!-- <i class="fa-solid fa-angle-left leftAngle"></i> -->
+            <i class="fa-sharp fa-solid fa-angle-left leftAngle"></i>
+        </span>
+        <span class="AngleR">
+            <!-- <i class="fa-solid fa-angle-right rightAngle"></i> -->
+            <i class="fa-sharp fa-solid fa-angle-right rightAngle"></i>
+        </span>
+    </div>
+
+    <!-- Row10 -->
     <div>
         <div class="showtitle">
             <strong> My List</strong>
@@ -2991,16 +3000,16 @@
             </span>
         </div>
         <div class="carousel">
-            <div class="thumbnail"> 
-                <img src="./Images/dkRises.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/dkRises.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -3022,7 +3031,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -3031,16 +3040,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/office.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/office.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -3062,7 +3071,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -3071,16 +3080,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/intern.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/intern.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -3102,7 +3111,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -3111,16 +3120,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/inception.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/inception.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -3142,7 +3151,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -3151,16 +3160,16 @@
                     </div>
                 </div>
             </div>
-            <div class="thumbnail"> 
-                <img src="./Images/imitationGame.png" alt="" width="100%"/>
+            <div class="thumbnail">
+                <img src="./Images/imitationGame.png" alt="" width="100%" />
                 <div class="subthumbnail">
                     <div>
-                        <div class ="row1">
+                        <div class="row1">
                             <div style="">
                                 <i class="fa-solid fa-circle-play"></i>
                             </div>
                             <div style=" font-size: 1.5vw;"">
-                                <i class="fa-solid fa-circle-plus"></i>
+                                <i class=" fa-solid fa-circle-plus"></i>
                             </div>
                             <div style=" font-size: 1.5vw;">
                                 <i class="fa-solid fa-thumbs-up"></i>
@@ -3182,7 +3191,7 @@
                                 2h 30m
                             </span>
                             <span class="row2part4">
-                                <img src="Images/image.png" height= 20vw/>
+                                <img src="Images/image.png" height=20vw />
                             </span>
                         </div>
                         <div class="row3">
@@ -3214,7 +3223,8 @@
         <!-- Showing Important links -->
         <div class="container1">
             <ul>
-                <li><a href="https://www.netflix.com/browse/audio-description" target="_blank">Audio Description</a></li>
+                <li><a href="https://www.netflix.com/browse/audio-description" target="_blank">Audio Description</a>
+                </li>
                 <li><a href="http://ir.netflix.com/" target="_blank">Investor Relations</a></li>
                 <li><a href="https://help.netflix.com/legal/notices" target="_blank">Legal Notices</a></li>
             </ul>
