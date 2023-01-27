@@ -9,14 +9,14 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="https://kit.fontawesome.com/31738bbfe2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Netflix</title>
+    <title>Home - Netflix</title>
 </head>
 
 <body>
     <header class="container">
         <a class="box" href="https://www.netflix.com/browse" target="_blank"
             style="padding-right: 2vw; padding-left: 2vw;">
-            <img src="netflix_official_logo.png" alt="Netflix Logo" width=100rem />
+            <img src="netflix_official_logo.png" alt="Netflix Logo" id="logo" />
         </a>
 
         <div class="container hidethis">
@@ -65,7 +65,7 @@
         </div>
 
         <div class="container" style="position: absolute; right: 7px;">
-            <div class="box">
+            <div class="box" id="idSearch">
                 <i class="fa fa-search"></i>
             </div>
             <a class="box" id="showthis" href="https://www.netflix.com/Kids" target="_blank">
@@ -102,8 +102,8 @@
     <!-- Cover Display -->
     <div style="display: absolute; padding-right: 0; height: 36vw; width: 100vw;">
         <div class="video">
-            <video autoplay muted height="100%" width="100%" poster="/Cover/cover.png">
-                <source src="/Cover/The Silent Sea Teaser.mp4" type="video/mp4">
+            <video autoplay muted height="100%" width="100%" poster="./Cover/cover.png">
+                <source src="./Cover/The Silent Sea Teaser.mp4" type="video/mp4">
             </video>
         </div>
 
@@ -117,11 +117,14 @@
         <div id="id1">
             <div id="grid">
                 <button class="btn" id="iconBox1"><i class="fa-solid fa-play"></i><strong>&nbsp; Play </strong></button>
-                <button class="btn" id="iconBox2"><i class="fa-solid fa-circle-info fa-l"></i><strong> More Info
+                <button class="btn" id="iconBox2"><i class="fa-solid fa-circle-info fa-l"></i><strong> &nbsp;More Info
                     </strong></button>
                 <div></div>
-                <div class="iconBox" id="iconBox3">
+                <!-- <div class="iconBox" id="iconBox3">
                     <div class="iconStyle"><i class="fa-solid fa-volume-high fa-2xs"></i></div>
+                </div> -->
+                <div>
+                    <img src="./Images/audio.png" alt="audio/" width="40vw">
                 </div>
                 <div class="iconStyle" id="iconBox4">A</div>
             </div>
@@ -692,7 +695,7 @@
 
                 <div class="row4">
                     <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-                    <span class="row5part2">27 of 120m</span>
+                    <span class="row5part2">60 of 120m</span>
                 </div>
             </div>
         </div>
@@ -722,8 +725,8 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-            <span class="row5part2">27 of 120m</span>
+            <span class="row5part1"><progress max="100" min="10" value="20"></progress></span>
+            <span class="row5part2">24 of 120m</span>
         </div>
     </div>
     </div>
@@ -753,8 +756,8 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-            <span class="row5part2">27 of 120m</span>
+            <span class="row5part1"><progress max="100" min="10" value="90"></progress></span>
+            <span class="row5part2">108 of 120m</span>
         </div>
     </div>
     </div>
@@ -784,8 +787,8 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
-            <span class="row5part2">27 of 120m</span>
+            <span class="row5part1"><progress max="100" min="10" value="95"></progress></span>
+            <span class="row5part2">114 of 120m</span>
         </div>
     </div>
     </div>
@@ -815,7 +818,7 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part1"><progress max="100" min="10" value="80"></progress></span>
             <span class="row5part2">27 of 120m</span>
         </div>
     </div>
@@ -846,7 +849,7 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part1"><progress max="100" min="10" value="35"></progress></span>
             <span class="row5part2">27 of 120m</span>
         </div>
     </div>
@@ -877,7 +880,7 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part1"><progress max="100" min="10" value="65"></progress></span>
             <span class="row5part2">27 of 120m</span>
         </div>
     </div>
@@ -908,7 +911,7 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part1"><progress max="100" min="10" value="70"></progress></span>
             <span class="row5part2">27 of 120m</span>
         </div>
     </div>
@@ -939,7 +942,7 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part1"><progress max="100" min="10" value="15"></progress></span>
             <span class="row5part2">27 of 120m</span>
         </div>
     </div>
@@ -970,7 +973,7 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part1"><progress max="100" min="10" value="78"></progress></span>
             <span class="row5part2">27 of 120m</span>
         </div>
     </div>
@@ -1001,7 +1004,7 @@
         </div>
 
         <div class="row4">
-            <span class="row5part1"><progress max="100" min="10" value="50"></progress></span>
+            <span class="row5part1"><progress max="100" min="10" value="57"></progress></span>
             <span class="row5part2">27 of 120m</span>
         </div>
     </div>
@@ -3205,7 +3208,7 @@
 
     <footer>
         <!-- Showing social accounts -->
-        <div class="container" style="padding: 12px 0 5px 12px; font-size: 1.3vw;">
+        <div class="container" style="padding: 12px 0 5px 12px; font-size: 1.6vw;">
             <a class="box" href="https://www.facebook.com/NetflixIN/" target="_blank">
                 <i class="fa fa-facebook"></i>
             </a>
@@ -3245,10 +3248,10 @@
             </ul>
         </div>
 
-        <div style="border: grey solid 2px; width: fit-content; color: grey; margin-left: 10px; font-size: 1vw;">
+        <div id="service">
             <span style="color: grey; padding: 4px;">Service Code</span>
         </div>
-        <div style="color: grey; margin: 1%; font-size: 1vw;">
+        <div id="copyright">
             <i class="fa fa-copyright fa-sm"></i>
             1997-2023 Netflix, Inc.
         </div>
