@@ -389,6 +389,7 @@ footer div ul li {
     display: none;
     height: 10vw;
     width: 20vw;
+    z-index: 2;
 }
 
 .thumbnail:hover .subthumbnail {
@@ -405,10 +406,8 @@ footer div ul li {
     border-top-right-radius: 5px;
 }
 
-.subthumbnail:hover {
-    /* height: 10vw;
-    width: 20vw; */
-    z-index: 2;
+.iconsize {
+    font-size: 1.5vw;
 }
 
 .row1 {
@@ -696,6 +695,58 @@ progress::-webkit-progress-value {
         width: 18.25vw;
     }
 
+    .thumbnail:hover {
+        height: 20.5vw;
+        height: 25.5vw;
+        width: 27vw;
+    }
+
+    .subthumbnail {
+        height: 11vw;
+        width: 27vw;
+    }
+
+    .row1 {
+        padding: 1vw;
+        font-size: 2vw;
+    }
+
+    .iconsize {
+        font-size: 2vw;
+    }
+
+    .row2part1 {
+        padding-left: 2vw;
+        font-size: 1.2vw;
+    }
+
+    .row2part2 {
+        font-size: 1.2vw;
+    }
+
+    .row2part3 {
+        padding: 2vw;
+        font-size: 1.2vw;
+    }
+
+    .row2part4 {
+        font-size: 1.2vw;
+    }
+
+    .row3 {
+        padding-left: 2vw;
+        font-size: 1.2vw;
+    }
+
+    .row5part1{
+        padding-left: 1vw;
+    }
+
+    .row5part2 {
+        padding: 2vw;
+        font-size: 1.2vw;
+    }
+
     .class {
         height: 16vw;
     }
@@ -760,6 +811,57 @@ progress::-webkit-progress-value {
         height: 13vw;
         width: 22.7vw;
     }
+    
+    .thumbnail:hover {
+        height: 30vw;
+        width: 33vw;
+    }
+
+    .subthumbnail {
+        height: 11vw;
+        width: 33vw;
+    }
+
+    .row1 {
+        padding: 1vw;
+        font-size: 2vw;
+    }
+
+    .iconsize {
+        font-size: 2vw;
+    }
+
+    .row2part1 {
+        padding-left: 2vw;
+        font-size: 1.5vw;
+    }
+
+    .row2part2 {
+        font-size: 1.5vw;
+    }
+
+    .row2part3 {
+        padding: 2vw;
+        font-size: 1.5vw;
+    }
+
+    .row2part4 {
+        font-size: 1.5vw;
+    }
+
+    .row3 {
+        padding-left: 2vw;
+        font-size: 1.5vw;
+    }
+
+    .row5part1{
+        padding-left: 1vw;
+    }
+
+    .row5part2 {
+        padding: 2vw;
+        font-size: 1.5vw;
+    }
 
     .class {
         height: 18.5vw;
@@ -811,7 +913,7 @@ progress::-webkit-progress-value {
         font-size: 16px;
     }
 
-    #service{
+    #service {
         font-size: 14px;
         margin-bottom: 2%;
         margin-top: 2%;
@@ -821,7 +923,7 @@ progress::-webkit-progress-value {
         font-size: 18px;
     }
 
-    footer{
+    footer {
         margin-left: 14px;
     }
 }
@@ -850,6 +952,58 @@ progress::-webkit-progress-value {
     .thumbnail {
         height: 17.12vw;
         width: 30vw;
+    }
+
+    
+    .thumbnail:hover {
+        height: 41vw;
+        width: 44vw;
+    }
+
+    .subthumbnail {
+        height: 30vw;
+        width: 44vw;
+    }
+
+    .row1 {
+        padding: 2vw;
+        font-size: 3vw;
+    }
+
+    .iconsize {
+        font-size: 3vw;
+    }
+
+    .row2part1 {
+        padding-left: 4vw;
+        font-size: 1.8vw;
+    }
+
+    .row2part2 {
+        font-size: 1.8vw;
+    }
+
+    .row2part3 {
+        padding: 2vw;
+        font-size: 1.8vw;
+    }
+
+    .row2part4 {
+        font-size: 1.8vw;
+    }
+
+    .row3 {
+        padding-left: 2vw;
+        font-size: 1.8vw;
+    }
+
+    .row5part1{
+        padding-left: 1.5vw;
+    }
+
+    .row5part2 {
+        padding: 1.5vw;
+        font-size: 1.8vw;
     }
 
     .class {
@@ -914,7 +1068,7 @@ progress::-webkit-progress-value {
         font-size: 13px;
     }
 
-    #service{
+    #service {
         font-size: 13px;
         margin-bottom: 2%;
         margin-top: 2%;
@@ -924,7 +1078,7 @@ progress::-webkit-progress-value {
         font-size: 18px;
     }
 
-    footer{
+    footer {
         margin-left: 9px;
     }
 }
@@ -932,6 +1086,7 @@ progress::-webkit-progress-value {
 @media (max-width: 500px) {
     .classRank {
         height: 40vw;
+        border: red solid 1px;
     }
 
     .thumbnail2 {
@@ -953,6 +1108,57 @@ progress::-webkit-progress-value {
     .thumbnail {
         height: 26.18vw;
         width: 44vw;
+    }
+    
+    .thumbnail:hover {
+        height: 54vw;
+        width: 64vw;
+    }
+
+    .subthumbnail {
+        height: 20vw;
+        width: 64vw;
+    }
+
+    .row1 {
+        padding: 1vw;
+        font-size: 4vw;
+    }
+
+    .iconsize {
+        font-size: 4vw;
+    }
+
+    .row2part1 {
+        padding-left: 9vw;
+        font-size: 2.2vw;
+    }
+
+    .row2part2 {
+        font-size: 2.2vw;
+    }
+
+    .row2part3 {
+        padding: 2vw;
+        font-size: 2.2vw;
+    }
+
+    .row2part4 {
+        font-size: 2.2vw;
+    }
+
+    .row3 {
+        padding-left: 9vw;
+        font-size: 2.2vw;
+    }
+
+    .row5part1{
+        padding-left: 1vw;
+    }
+
+    .row5part2 {
+        padding: 2vw;
+        font-size: 2.2vw;
     }
 
     .class {
@@ -1007,7 +1213,7 @@ progress::-webkit-progress-value {
         padding-left: 2px;
     }
 
-    #service{
+    #service {
         font-size: 12px;
         margin-bottom: 2%;
         margin-top: 2%;
@@ -1028,7 +1234,7 @@ progress::-webkit-progress-value {
         font-size: 18px;
     }
 
-    footer{
+    footer {
         margin-left: 7px;
     }
 }
