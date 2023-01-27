@@ -1086,7 +1086,6 @@ progress::-webkit-progress-value {
 @media (max-width: 500px) {
     .classRank {
         height: 40vw;
-        border: red solid 1px;
     }
 
     .thumbnail2 {
@@ -1201,7 +1200,9 @@ progress::-webkit-progress-value {
     }
 
     #grid {
-        grid-template-columns: 11% 13% auto 9% 12%;
+        /* grid-template-columns: 11% 13% auto 9% 12%; */
+        grid-template-columns: 11% 13% auto 9% 20%;
+        grid-column-gap: 10px;
     }
 
     .container1 ul li {
