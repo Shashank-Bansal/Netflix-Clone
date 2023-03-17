@@ -92,12 +92,18 @@ button{
     padding: 0.5vh;
 }
 
+.Profile-item li i {
+    font-size: 18px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
 .icon,
 .Profile-item li span {
     /* text-align: center; */
     position: relative;
     bottom: 0.5vh;
-    font-size: 2vh;
+    /* font-size: 2vh; */
 }
 
 #showthis{
@@ -353,6 +359,8 @@ footer div ul li {
 .profileImage {
     /* height: 35px; */
     height: 3.1vh;
+    height: 18px;
+    height: 22px;
     border-radius: 2px;
 }
 
@@ -598,6 +606,7 @@ progress::-webkit-progress-value {
 
 .thumbnail:hover {
     transition-delay: 20ms;
+    transform: translate(0%, -5%);
 }
 
 
