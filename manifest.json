@@ -13,10 +13,16 @@
     {
       "src": "logo512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "display": "standalone",
   "background_color": "#141414",
-  "theme_color": "#141414"
+  "theme_color": "#141414",
+  "id": "netflix-clone",
+  "description": "Netflix Clone using HTML and CSS",
+  "lang": "en",
+  "orientation": "any",
+  "categories": ["entertainment"]
 }
