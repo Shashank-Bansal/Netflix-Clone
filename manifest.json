@@ -1,0 +1,22 @@
+{
+  "name": "Netflix Clone",
+  "short_name": "Netflix",
+  "start_url": "index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#141414"
+}
